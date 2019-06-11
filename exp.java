@@ -6,7 +6,7 @@ public class Main
 		Scanner scan=new Scanner(System.in);
 		int base=scan.nextInt();
 		int exp=scan.nextInt();
-		int result=Math.pow(base,exp);
+		double result=Math.pow(base,exp);
 	    System.out.println(result);
 	}
 }

@@ -16,8 +16,8 @@ public static void main(String[] args){
 	        }
 
 	        if (!flag)
-	            System.out.println(um + " is a prime number.");
+	            System.out.println(um + " yes");
 	        else
-	            System.out.println(um+"is not a prime number.");
+	            System.out.println(um+"no");
 	    }
 	}

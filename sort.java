@@ -16,6 +16,8 @@ public static void main(String[] args) {
 			if(a[i]==a[j]){
 			System.out.println(a[i]);
 			}
+			else{
+				System.out.println("unique");
 		}
 	
 	}

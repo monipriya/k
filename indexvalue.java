@@ -8,10 +8,7 @@ public static void main(String[] args) {
 	int a[]=new int[n];
 	for(int i=0;i<n;i++){
 		a[i]=sc.nextInt();
-			int m=((n-1)/2);
-			System.out.println(a[m-1]);
-	   break;	
-	}
+		
+System.out.println(a[i]+" "+i);
+}}}
 
-}}
-        

@@ -1,6 +1,8 @@
 public class beginerset7 {
 public static void main(String[] args) {
-	if(System.out.append("hello world")!=null){
+	Scanner sc=new Scanner(System.in);
+	String s=sc.nextLine();
+	if(System.out.append(s)!=null){
 		
 	}
     

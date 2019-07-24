@@ -14,12 +14,12 @@ public static void main(String[] args) {
 		arr[i]=sc.nextInt();
 		if(arr[i]<n2){
 		
-	res.add(arr[i]+" ");	
+	res.add(arr[i]);	
 		}
    	}
 	Collections.sort(res);
 	for(int i=0;i<res.size();i++){
-		System.out.print(res.get(i));
+		System.out.print(res.get(i)+" ");
 	}
 	
 }

@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	int r=sc.nextInt();
 	int s=sc.nextInt();
 	for(int i=r;i<=s;i++){
-		if(n==i){
+		if(n!=i && i==r){
 			System.out.println("yes");
 		}
 		else{
